@@ -1,28 +1,34 @@
-# Diabetes Risk Factors and Diabetic Retinopathy Detection
+# A Comparative Rural–Urban Study of Diabetes Risk Factors and Diabetic Retinopathy Detection through Statistical Modeling and Image Processing
 
 ## Project Overview
 
-This project combines statistical modeling and deep learning techniques to identify diabetes risk factors and detect diabetic retinopathy from retinal fundus images.
+This project combines statistical analysis and deep learning techniques to identify diabetes risk factors and detect diabetic retinopathy from retinal fundus images. The study compares rural and urban populations to understand the influence of demographic, lifestyle, and clinical factors on diabetes prevalence.
 
 ## Objectives
 
-* Analyze diabetes risk factors in rural and urban populations.
-* Identify significant predictors using Logistic Regression and Random Forest.
+* Identify major risk factors associated with diabetes.
+* Compare diabetes risk patterns in rural and urban populations.
+* Develop predictive models using Logistic Regression and Random Forest.
 * Detect diabetic retinopathy using Convolutional Neural Networks (CNN).
-* Support early diagnosis and public health screening.
+* Support early diagnosis through data-driven healthcare analytics.
 
-## Tools & Technologies
+## Dataset
 
-* Python
-* Pandas
-* NumPy
-* Seaborn
-* Scikit-Learn
-* Statsmodels
-* TensorFlow
-* Keras
+### Questionnaire Dataset
 
-## Methods
+* 120 participants
+* Rural and Urban populations
+* Demographic, clinical, anthropometric, and lifestyle variables
+
+### Retinal Image Dataset
+
+* Retinal fundus images
+* Binary classification:
+
+  * Normal
+  * Retinopathy
+
+## Methodology
 
 ### Statistical Analysis
 
@@ -30,20 +36,65 @@ This project combines statistical modeling and deep learning techniques to ident
 * Hypothesis Testing
 * Logistic Regression
 * Random Forest Classification
+* ROC Curve Analysis
 
-### Deep Learning
+### Image Processing & Deep Learning
 
-* CNN-based Image Classification
-* Retinal Fundus Image Processing
-* Binary Classification (Normal vs Retinopathy)
+* Image Preprocessing
+* CNN Architecture
+* Model Training and Validation
+* Retinopathy Detection
+
+## Tools and Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Statsmodels
+* TensorFlow
+* Keras
+* Jupyter Notebook
 
 ## Key Findings
 
-* BMI and Family History were major diabetes risk factors.
-* Random Forest achieved excellent classification performance.
-* CNN successfully detected diabetic retinopathy from retinal images.
+* BMI was identified as a significant predictor of diabetes.
+* Family history showed a strong association with diabetes risk.
+* Random Forest highlighted BMI and family history as the most important features.
+* CNN successfully classified retinal images into Normal and Retinopathy categories.
+* The integrated approach demonstrated the effectiveness of combining statistical modeling with deep learning for healthcare applications.
+
+## Project Structure
+
+├── research_paper_report.pdf
+
+├── dataset/
+
+├── notebooks/
+
+├── images/
+
+├── models/
+
+└── README.md
+
+## Future Scope
+
+* Multi-class diabetic retinopathy grading.
+* Larger and more diverse datasets.
+* Deployment as a web or mobile healthcare application.
+* Integration with telemedicine platforms.
 
 ## Author
 
-Trupti Prakash
+**Trupti Prakash**
+
 M.Sc. Statistics
+
+Savitribai Phule Pune University
+
+## Keywords
+
+Diabetes, Diabetic Retinopathy, Machine Learning, Deep Learning, CNN, Logistic Regression, Random Forest, Healthcare Analytics, Statistics, Python.
